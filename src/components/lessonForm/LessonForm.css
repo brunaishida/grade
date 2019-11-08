@@ -1,0 +1,16 @@
+.lesson-form {
+  text-align: left;
+}
+
+.form-title {
+  margin-bottom: 20px
+}
+
+.hour{
+  float: left;
+  margin-right: 20px
+}
+
+.hour-end {
+  clear: left 
+}

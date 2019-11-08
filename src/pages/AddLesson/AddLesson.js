@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import Header from '../../components/header/Header'
+import './AddLesson.css';
+import Header from '../../components/header/Header';
+import LessonForm from '../../components/lessonForm/LessonForm';
 
 class AddLesson extends Component {
   render() {
@@ -9,7 +11,9 @@ class AddLesson extends Component {
           <Header/>
         </div>
         <div className="body">
-            
+          <div className="content">
+            <LessonForm/>
+          </div>
         </div>
       </div>
     );

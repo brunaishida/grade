@@ -9,7 +9,7 @@ class InitialPage extends Component {
     return (
       <div className="page">
         <div className="header">
-          <Header/>
+          <Header onAddLessonPress={this.props.onAddLessonPress}/>
         </div>
         <div className="body">
           <div className="content">

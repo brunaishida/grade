@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <Navbar bg="dark" className="navbar">
         <Navbar.Brand href="#home">
-          <Button variant="dark" className="button-add-class">
+          <Button variant="dark" className="button-add-class" onClick={this.props.onAddLessonPress}>
             Add class
           </Button>
         </Navbar.Brand>
