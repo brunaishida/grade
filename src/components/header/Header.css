@@ -1,0 +1,13 @@
+.navbar {
+  min-height: 5vh;
+}
+
+.button-add-class {
+  border-color: white;
+}
+
+.button-add-class:hover {
+  border-color: white;
+  background-color: white;
+  color: black
+}

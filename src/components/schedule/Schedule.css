@@ -1,0 +1,11 @@
+.week-days {
+  min-height: 20px;
+}
+
+.first-class, .second-class {
+  margin-top: 20px;
+  min-height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
